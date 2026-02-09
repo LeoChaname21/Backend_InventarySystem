@@ -6,7 +6,7 @@ FROM eclipse-temurin:17-jdk AS builder
 WORKDIR /app
 
 # Copy the application code
-COPY . .
+COPY com.inn.almacen/ .
 
 # Given permissions to mvnw
 RUN chmod +x mvnw
